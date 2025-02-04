@@ -14,4 +14,8 @@ UIView.animate(withDuration: 5.0, animations: {
     square.transform = rotation
 })
 
-PlaygroundPage.current.liveView = container
+let tuple = (1, "Hello")
+
+let (value, _) = tuple
+
+PlaygroundPage.current.liveView = container!

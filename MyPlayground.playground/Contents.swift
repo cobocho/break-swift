@@ -1,7 +1,4 @@
-var x = 20
+import UIKit
+import PlaygroundSupport
 
-for index in 1...20 {
-    let y = index * x
-    x -= 1
-    print(y)
-}
+var number = 10
